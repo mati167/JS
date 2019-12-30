@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Proyecto con JavaScript</title>
+
+		<!--Estilos CSS-->
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+		<!--<link id="theme" rel="stylesheet" type="text/css" href="css/green.css"/> -->
+
+		<!--JQUERY-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		
+		<!--Moment-->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script> 
+
+		<!--JAVASCRIPT
+		<script type="text/javascript" src="js/main.js"></script>-->
+		<script type="text/javascript" src="js/index.js"></script>
+		
+		<!--SLIDER-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  		 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	</head>
+	<body>
+		<section id="global">
+			<!--cabecera-->
+			<header>
+				<div id="logo">
+					<h1>Henan Maurice</h1>
+				</div>
+				<div class="clearfix"></div>
+				<nav id="menu">
+					<ul >
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="reloj.html">Reloj</a></li>
+						<li><a href="about.html">Sobre mi</a></li>
+						<li><a href="contact.html">Contacto</a></li>
+					</ul>
+				</nav>
+			</header>
+			<!--Contenido-->
+			<section id="content">
+				<div id="posts"> <!--id="post"-->
+					<!--CARGAR POST DESDE JSON-->
+				<!--<label for="name">
+					<h3>Quien soy?</h3>
+				</label>
+					<img src="img/hernan_feliz.jpg" title="foto">	-->
+				</div>
+				<aside id="sidebar">
+					<div id="about">
+						<h4><span>¿Quien soy?</span></h4>
+						<img src="img/hernan_feliz.jpg">				<!--
+						<img src="img/caracol.jpg" width="300" height="350px">
+					-->
+						<p>Mi nombre es Hernan Javier Maurice</p>
+					</div>
+					<div id="login">
+						<h4>Queres dejarme algun comentario?</h4>
+						<form>
+							<label for="name">
+								Nombre
+							</label>
+							<input type="text" name="name" id="form_name"/>
+							<label for="email">
+								Correo
+							</label>
+							<input type="text" name="email" id="form_email"/>
+							<label for="text">
+								Mensaje
+							</label>
+							<input type="text" name="text" id="form_text"/>
+
+							<input type="submit" name="Entrar"/>
+						</form>
+					
+					</div>
+				</aside>
+				<div class="clearfix"></div>
+			</section>
+		</section>
+		<footer>
+			Master en SAP
+
+			<a href="#" class="subir">Ir Arriba</a>
+		</footer>
+	</body>
+</html>
