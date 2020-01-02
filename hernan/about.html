@@ -6,22 +6,20 @@
 
 		<!--Estilos CSS-->
 		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
-		<link id="theme" rel="stylesheet" type="text/css" href="css/blue.css"/>
+		<link id="theme" rel="stylesheet" type="text/css" href="css/green.css"/>
 
 		<!--JQUERY-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		
-		<!--Moment-->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script> 
+
+		<link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css"/>
+		<link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.structure.min.css"/>
+		<link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.theme.min.css"/>
+		<script type="text/javascript" src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
 
 		<!--JAVASCRIPT-->
 		<script type="text/javascript" src="js/main.js"></script>
-		<script type="text/javascript" src="js/index.js"></script>
-		
-		<!--SLIDER-->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  		 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+		<script type="text/javascript" src="js/about.js"></script>
+
 	</head>
 	<body>
 		<div id="selector-theme">
@@ -31,13 +29,13 @@
 			<div id="to-yellow"></div>
 			<div id="to-k"></div>
 		</div>
+		</div>
 
 		<section id="global">
 			<!--cabecera-->
 			<header>
 				<div id="logo">
 					<h1>Hernan Javier Maurice</h1>
-					<img />
 				</div>
 				<div class="clearfix"></div>
 				<nav id="menu">
@@ -52,16 +50,27 @@
 
 			<!--Contenido-->
 			<section id="content">
-				<div id="posts">
-					<!--CARGAR POST DESDE JSON-->
+				<div id="box">
+					<!--CARGAR acordeon-->
+					<h2>Sobre mi</h2>
+					<div id="acordeon">
+						<h3>¿Quien soy?</h3>
+						<div>
+							<p>No estoy autorizado a responder esa pregunta</p>
+						</div>
+						<h3>Nuestros servicios</h3>
+						<div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+						<h3>Nuestros clientes</h3>
+						<div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+					</div>
 				</div>
 				<aside id="sidebar">
 					<div id="about">
-						<!--
-						<h4><span>¿Quien soy?</span></h4>
-						<img src="img/hernan_feliz.jpg">
-						<p id="about"></p>
-					-->
+						<!-- carga desde JS-->
 					</div>
 					<div id="login">
 						<h4>¿Queres dejarme un comentario?</h4>
