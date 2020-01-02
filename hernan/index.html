@@ -6,7 +6,7 @@
 
 		<!--Estilos CSS-->
 		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
-		<!--<link id="theme" rel="stylesheet" type="text/css" href="css/green.css"/> -->
+		<link id="theme" rel="stylesheet" type="text/css" href="css/blue.css"/>
 
 		<!--JQUERY-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -15,8 +15,8 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script> 
 
-		<!--JAVASCRIPT
-		<script type="text/javascript" src="js/main.js"></script>-->
+		<!--JAVASCRIPT-->
+		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
 		
 		<!--SLIDER-->
@@ -24,11 +24,20 @@
   		 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	</head>
 	<body>
+		<div id="selector-theme">
+			<div id="to-green"></div>
+			<div id="to-red"></div>
+			<div id="to-blue"></div>
+			<div id="to-yellow"></div>
+			<div id="to-k"></div>
+		</div>
+
 		<section id="global">
 			<!--cabecera-->
 			<header>
 				<div id="logo">
-					<h1>Henan Maurice</h1>
+					<h1>Hernan Javier Maurice</h1>
+					<img />
 				</div>
 				<div class="clearfix"></div>
 				<nav id="menu">
@@ -40,25 +49,22 @@
 					</ul>
 				</nav>
 			</header>
+
 			<!--Contenido-->
 			<section id="content">
-				<div id="posts"> <!--id="post"-->
+				<div id="posts">
 					<!--CARGAR POST DESDE JSON-->
-				<!--<label for="name">
-					<h3>Quien soy?</h3>
-				</label>
-					<img src="img/hernan_feliz.jpg" title="foto">	-->
 				</div>
 				<aside id="sidebar">
 					<div id="about">
 						<h4><span>¿Quien soy?</span></h4>
-						<img src="img/hernan_feliz.jpg">				<!--
+						<img src="img/caracol.jpg">					<!--
 						<img src="img/caracol.jpg" width="300" height="350px">
 					-->
-						<p>Mi nombre es Hernan Javier Maurice</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
 					<div id="login">
-						<h4>Queres dejarme algun comentario?</h4>
+						<h4>¿Queres dejarme un comentario?</h4>
 						<form>
 							<label for="name">
 								Nombre
@@ -68,10 +74,10 @@
 								Correo
 							</label>
 							<input type="text" name="email" id="form_email"/>
-							<label for="text">
-								Mensaje
+							<label for="comment">
+								comentario
 							</label>
-							<input type="text" name="text" id="form_text"/>
+							<input type="comment" name="text" id="form_text"/>
 
 							<input type="submit" name="Entrar"/>
 						</form>

@@ -3,9 +3,7 @@
 	padding: 0px;
 	list-style: none;
 }
-body{
-	background: url('../img/background.jpg');
-}
+
 .clearfix{
 	float: none;
 	clear: both;
@@ -18,8 +16,7 @@ body{
 	margin-top: 30px;
 	padding: 20px;
 	background: white;
-	/*background-image: url("../img/background.jpg");*/
-	box-shadow: 0px 0px 5px green ;
+	box-shadow: 0px 0px 5px blue ;
 }
 
 #logo{
@@ -29,13 +26,20 @@ body{
 	line-height: 80px;
 	color: white;
 	text-align: center;
-	width: 385px;
+	width: 550px;
 	height: 75px;
 	margin-bottom: 20px;
-	float: left;
+	float: center;
 	text-transform: uppercase;
 	background: #1F87C4;
+}
 
+#logo img{
+	position: relative;
+	width: 117px;
+    top: -83px;
+    height: 80px;
+    right: -500px;
 }
 
 #menu{
@@ -156,6 +160,18 @@ select{
 	margin-top: 5px;
 }
 
+form input[type="comment"],
+	select{
+	padding: 25px;
+	border-radius: 2px;
+	border:1px solid #ccc;
+	width: 80%;
+	margin-bottom: 10px;
+/*	box-shadow: 0px 0px 2px gray; */
+	margin-top: 5px;
+	text-align: justify;
+}
+}
 form input[type="submit"]{
 	background: #ccc;
 	padding: 10px;
@@ -187,12 +203,14 @@ footer{
 	top: 40%;
 	background: rgba(51,51,51,0.7);
 	width: 50px;
-	height: 100px; 
+	height: 135px; 
 }
 
 #to-green,
 #to-red,
-#to-blue{
+#to-blue,
+#to-k,
+#to-yellow{
 	width: 25px;
 	height: 25px;
 	border: 1px solid white;
@@ -214,6 +232,13 @@ footer{
 #to-blue{
 	background: #1F87C4;
 }
+#to-yellow{
+	background: #FFFF33;
+}
+#to-k{
+	content: url('../img/sol.png')
+}
+
 .subir{
 	color: white;
 	text-decoration: none;

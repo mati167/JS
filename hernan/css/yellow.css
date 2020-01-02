@@ -1,0 +1,21 @@
+body{
+	background: url('../img/jxc.jpg');
+	background-attachment: fixed;
+}
+
+#logo{
+	background: #FFFF33;
+	color: black;
+}
+#logo img{
+	content: url('../img/pro.png');
+}
+#menu ul li:hover{
+	background: #FFFF33;
+	color: black;
+}
+
+.button-more{
+	background: #FFFF33;
+	color: black;
+}

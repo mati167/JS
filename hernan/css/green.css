@@ -1,0 +1,17 @@
+body{
+	background: url('../img/verde.jpg');
+	background-attachment: fixed;
+}
+#logo{
+	background: #235E3D;
+}
+#logo img{
+	content: url('../img/aborto.jpg');
+}
+#menu ul li:hover{
+	background: #235E3D;
+}
+
+.button-more{
+	background: #235E3D;
+}

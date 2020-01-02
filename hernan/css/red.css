@@ -1,0 +1,17 @@
+body{
+	background: url('../img/red.jpg') no-repeat;
+	background-attachment: fixed;
+}
+#logo{
+	background: #CA3413;
+}
+#logo img{
+	content: url('../img/comunismo.png');
+}
+#menu ul li:hover{
+	background: #CA3413;
+}
+
+.button-more{
+	background: #CA3413;
+}
